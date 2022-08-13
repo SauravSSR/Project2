@@ -82,3 +82,16 @@
 <h2> Check Git </h2>
    git version
   
+
+
+# Common Error 
+```
+/var/run/docker.sock: connect: permission denied
+```
+
+# Resolution
+
+```
+sudo chmod 777 /var/run/docker.sock
+
+`
