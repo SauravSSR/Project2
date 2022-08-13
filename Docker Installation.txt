@@ -1,0 +1,10 @@
+### Docker Installation in Ubuntu
+
+##Installation
+#Step 1: Update your local package index
+   sudo apt-get update
+#Step 2: Install Docker
+   sudo apt install docker.io -y
+   
+##Check for Docker
+   docker --version
