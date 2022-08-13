@@ -1,0 +1,19 @@
+### Python Installation in Ubuntu
+##Method 1:
+#Step 1: Update your local system's repository list
+   sudo apt update
+#Step 2: Download the latest version of Python
+   sudo apt install python3
+   
+##Method 2:
+#Step 1: Install the mentioned package on your system
+   sudo apt install software-properties-common
+#Step 2:Add the official Deadsnakes PPA link to your system's repository list
+   sudo add-apt-repository ppa:deadsnakes/ppa
+#Step 3:Update your system's package list
+   sudo apt update
+#Step 4:Download the latest version of Python from the added PPA
+   sudo apt install python3
+   
+##Check for the Python version
+   python3 --version
