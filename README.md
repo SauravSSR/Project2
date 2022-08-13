@@ -3,16 +3,16 @@
 
 - Step 1: First add the key to your system
 
-    sudo curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
-    /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  sudo curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 
 - Step 2: Add a Jenkins apt repository entry
 
-   sudo echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-   https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
-   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  sudo echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
 
--  Step 3: Update your local package index
+- Step 3: Update your local package index
 
   sudo apt-get update
 
