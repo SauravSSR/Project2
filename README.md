@@ -106,7 +106,7 @@ docker run -d -p 80:80 sauravssr/nginx:httpd
 docker ps
 ```
   
-# Execute shell Command 
+# Repository 
 ```
 DockerHub : https://hub.docker.com/repository/docker/sauravssr/nginx
 
