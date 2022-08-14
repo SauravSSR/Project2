@@ -94,4 +94,14 @@
 ```
 sudo chmod 777 /var/run/docker.sock
 
-`
+```
+
+# Execute shell Command 
+```
+docker run hello-world
+docker rm `docker ps -aq` -f
+docker build -t demo .
+docker tag demo sauravssr/nginx:httpd
+docker run -d -p 80:80 sauravssr/nginx:httpd
+docker ps
+```
