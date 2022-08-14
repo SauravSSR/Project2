@@ -105,3 +105,10 @@ docker tag demo sauravssr/nginx:httpd
 docker run -d -p 80:80 sauravssr/nginx:httpd
 docker ps
 ```
+  
+# Execute shell Command 
+```
+DockerHub : https://hub.docker.com/repository/docker/sauravssr/nginx
+
+GitHub : https://github.com/SauravSSR/Project2.git
+```
